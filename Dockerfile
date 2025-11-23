@@ -1,6 +1,5 @@
-FROM python:3.9-slim
+FROM python:3.9
 WORKDIR /app
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
 COPY . .
-CMD ["streamlit", "run", "src/app.py"]
+RUN pip install -r requirements.txt
+CMD streamlit run src/app.py
