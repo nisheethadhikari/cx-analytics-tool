@@ -1,3 +1,2 @@
 # CX Analytics Tool
-
-Upload CX case data and generate metrics, risk scores, and insights.
+Fully modular, Gartner-aligned customer experience analytics platform.
